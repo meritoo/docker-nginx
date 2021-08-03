@@ -29,7 +29,8 @@ openssl \
     -x509 \
     -nodes \
     -keyout private-key.pem \
-    -new -out public-certificate.pem \
+    -new \
+    -out public-certificate.pem \
     -subj '/C=PL/ST=podkarpackie/L=Stalowa Wola/O=Meritoo.pl/CN='${domain} \
     -reqexts SAN \
     -extensions SAN \
