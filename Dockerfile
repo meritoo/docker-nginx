@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:bookworm
 MAINTAINER Meritoo <github@meritoo.pl>
 
 ARG NGINX_PORT
